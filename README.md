@@ -11,7 +11,7 @@ This is an updated instalation script for for Lutris of Fate/Stay Night [Réalta
 ## Prerequisits
 You need a copy of the game, sadly all versions of Fate/Stay Night are unavailable for purchase and thus constitute abandonware. But I highly recomend following this steps in order to overcome this problem:
 
-  1. Search for these exact terms: [`nyaa "Fate/stay night [Realta Nua] for Windows"`](https://www.google.com/search?q=nyaa+%22Fate%2Fstay+night+%5BRealta+Nua%5D+for+Windows%22&oq=nyaa+%22Fate%2Fstay+night+%5BRealta+Nua%5D+for+Windows%22)
+  1. Search for these exact terms: [`nyaa "Fate/stay night [Realta Nua] for Windows"`](https://www.google.com/search?q=nyaa+%22Fate%2Fstay+night+%5BRealta+Nua%5D+for+Windows%22&oq=nyaa+%22Fate%2Fstay+night+%5BRealta+Nua%5D+for+Windows%22), it should be the first result.
   
   2. Click where it says "Download Torrent", in the apper part.
   
