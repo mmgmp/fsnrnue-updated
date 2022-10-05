@@ -2,8 +2,9 @@
 This is an updated instalation script for for Lutris of Fate/Stay Night [Réalta Nua] - Ultimate Edition, this script uses the new version of the Ultimate Edition, released in 2022/10/05.
 
 <p align="center">
-   <img src="[https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/617eec79885716929ff5c622e37bb463.jpg]" alt="[Fate/stay night \[Réalta Nua\]]"/>
+  <kbd><img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/617eec79885716929ff5c622e37bb463.jpg" /></kbd>
 </p>
+
 
 ## Prerequisits
 You need a copy of the game, sadly all versions of Fate/Stay Night are unavailable for purchase and thus constitute abandonware. But I highly recomend following this steps in order to overcome this problem:
@@ -21,5 +22,8 @@ You need a copy of the game, sadly all versions of Fate/Stay Night are unavailab
       * `Unlimited Blade Works Crack.rar`
       
 ## Instalation
- 
-To begin the instalation, you simply run the `fsnrnue-2022.yml` either with the `lutris -i fsnrnue-2022.yml` or graphicaly using Lutris.
+
+There are two methods of installation:
+   - Using the instalation script from [Lutris](https://lutris.net/games/fatestay-night/). **(recommended)**
+   
+   - Downloading and executing the scrip yourself with the `lutris -i fsnrnue-2022.yml` command. 
