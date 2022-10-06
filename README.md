@@ -50,5 +50,5 @@ I strongly recomend enabeling these:
 If you are lost or want to know all the routes an consecuances of the game, check out [this flowchart](https://github.com/mmgmp/fsnrnue-updated/releases/download/v1.1.2/fate-flowchart.pdf).
 
 ## Thanks
-  * To the user [leycec](https://github.com/leycec) for the original script, and the oportunity to play this game for the first in linux.
+  * To the user [leycec](https://github.com/leycec) for the original script, and the oportunity to play this game for the first time in linux.
   * The comunity of [Beast's Lair](https://forums.nrvnqsr.com/) for creating and maintaining this awesome mod.
