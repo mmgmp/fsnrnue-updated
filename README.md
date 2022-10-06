@@ -42,6 +42,13 @@ This is the list of all the patches available:
   * patch_vita_ost.xp3 → Adds the option to use the remixed soundtracks from the Vita/mobile release.
  
 ## Configuration
-I strangly recomend:
+I strongly recomend enabeling these:
   * **Patch → Movie content → Skip movies in-game option.** This causes an error, you can watch them in the Extras menu option.
   * **Language → English.** Sometimes the game starts in Japanese by default.
+  
+## Guide
+If you are lost or want to know all the routes an consecuances of the game, check out [this flowchart](https://github.com/mmgmp/fsnrnue-updated/releases/download/v1.1.2/fate-flowchart.pdf).
+
+## Thanks
+  * To the user [leycec](https://github.com/leycec) for the original script, and the oportunity to play this game for the first in linux.
+  * The comunity of [Beast's Lair](https://forums.nrvnqsr.com/) for creating and maintaining this awesome mod.
