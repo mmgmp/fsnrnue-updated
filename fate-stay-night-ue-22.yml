@@ -3,24 +3,21 @@ game_slug: fatestay-night
 version: "[Réalta Nua] Ultimate Edition - v1.1.2"
 slug: fate-stay-night-realta-nua-ultimate-edition-installer
 runner: wine
-  
-files:
-- ultimate_edition: https://github.com/mmgmp/fsnrnue-2022/releases/download/2022.10.5/fsnrnue-2022.10.5.zip
-- game_fa: N/A:Select source file "Fate.rar"
-- game_fa_crack: N/A:Select source file "Fate Crack.rar"
-- game_ub: N/A:Select source file "Unlimited Blade Works.rar"
-- game_ub_crack: N/A:Select source file "Unlimited Blade Works Crack.rar"
-- game_hf: N/A:Select source file "Heaven's Feel.7z"
-- game_hf_crack: N/A:Select source file "Heaven's Feel Crack.rar"
-  
-game:
-  arch: win32
-  exe: "$GAMEDIR/drive_c/Fate Stay Night - Ultimate Edition/Fate.exe"
-  prefix: $GAMEDIR
-  
-installer:
+
+script:
+  game:
+    exe: "$GAMEDIR/drive_c/Fate Stay Night - Ultimate Edition/Fate.exe"
+    prefix: $GAMEDIR
+  files:
+  - ultimate_edition: https://github.com/mmgmp/fsnrnue-2022/releases/download/2022.10.5/fsnrnue-2022.10.5.zip
+  - game_fa: N/A:Select source file "Fate.rar"
+  - game_fa_crack: N/A:Select source file "Fate Crack.rar"
+  - game_ub: N/A:Select source file "Unlimited Blade Works.rar"
+  - game_ub_crack: N/A:Select source file "Unlimited Blade Works Crack.rar"
+  - game_hf: N/A:Select source file "Heaven's Feel.7z"
+  - game_hf_crack: N/A:Select source file "Heaven's Feel Crack.rar" 
+  installer:
   - task:
-      arch: win32
       description: Creating WINE prefix...
       name: create_prefix
       prefix: $GAMEDIR
@@ -46,12 +43,9 @@ installer:
       dst: "$GAMEDIR/drive_c/Fate Stay Night - Heaven's Feel"
       file: game_hf_crack
   - task:
-      arch: win32
       description: Installing Fate/Stay Night [Realta Nua] Ultimate Edition...
-      executable: "$GAMEDIR/drive_c/Fate Stay Night [Réalta Nua] - Ultimate Edition Setup.exe"
+      executable: ultimate_edition
       name: wineexec
       prefix: $GAMEDIR
-      
-wine:
-  version: lutris-fshack-7.2-x86_64
----
+  wine:
+    version: lutris-fshack-7.2-x86_64
