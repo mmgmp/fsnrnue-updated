@@ -43,7 +43,7 @@ This is the list of all the patches available:
  
 ## Configuration
 I strongly recomend enabeling these:
-  * **Patch → Movie content → Skip movies in-game option.** This causes an error, you can watch them in the Extras menu option.
+  * **Patch → Movie content → Skip movies in-game.** This causes an error, you can watch them in the Extras menu option.
   * **Language → English.** Sometimes the game starts in Japanese by default.
   
 ## Guide
