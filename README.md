@@ -27,3 +27,9 @@ There are two methods of installation:
 <!--   - Using the instalation script from [Lutris](https://lutris.net/games/fatestay-night/). **(recommended)** -->
    
    - Downloading and executing the scrip yourself with the `lutris -i fsnue-v1.1.2.yml` command. 
+
+## Patches
+After the instalation, you can downlaod some patches, must of the are optional, but there is one that in <ins>**required**</ins> to even run the game. 
+
+This is the list of all the patches available:
+  * The mandatory patch: [patch.xp3](https://mega.nz/folder/DMsXCIoD#ubkrOC40vxEJDAslcnScow/file/jM0XSKRK)
