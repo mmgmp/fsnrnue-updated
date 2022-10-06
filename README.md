@@ -28,4 +28,4 @@ You need a copy of the game, sadly all versions of Fate/Stay Night are unavailab
 There are two methods of installation:
    - Using the instalation script from [Lutris](https://lutris.net/games/fatestay-night/). **(recommended)**
    
-   - Downloading and executing the scrip yourself with the `lutris -i fsnrnue-v1.1.2.yml` command. 
+   - Downloading and executing the scrip yourself with the `lutris -i fsnue-v1.1.2.yml` command. 
