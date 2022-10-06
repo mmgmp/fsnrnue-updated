@@ -1,0 +1,51 @@
+name: "Fate/Stay Night"
+game_slug: fatestay-night
+version: "[Réalta Nua] Ultimate Edition - v1.1.2"
+slug: fate-stay-night-realta-nua-ultimate-edition-installer
+runner: wine
+
+script:
+  game:
+    exe: "$GAMEDIR/drive_c/Program Files (x86)/Fate／stay night[Realta Nua] Ultimate Edition/Fate.exe"
+    prefix: $GAMEDIR
+  files:
+  - ultimate_edition: https://github.com/mmgmp/fsnrnue-updated/releases/download/v1.1.2/fsnrnue-v1.1.2.zip
+  - game_fa: N/A:Select source file "Fate.rar"
+  - game_fa_crack: N/A:Select source file "Fate Crack.rar"
+  - game_ub: N/A:Select source file "Unlimited Blade Works.rar"
+  - game_ub_crack: N/A:Select source file "Unlimited Blade Works Crack.rar"
+  - game_hf: N/A:Select source file "Heaven's Feel.7z"
+  - game_hf_crack: N/A:Select source file "Heaven's Feel Crack.rar" 
+  installer:
+  - task:
+      description: Creating WINE prefix...
+      name: create_prefix
+      prefix: $GAMEDIR
+  - extract:
+      dst: $GAMEDIR/drive_c
+      file: ultimate_edition
+  - extract:
+      dst: "$GAMEDIR/drive_c/Program Files (x86)/Fate／stay night[Realta Nua] -Fate-"
+      file: game_fa
+  - extract:
+      dst: "$GAMEDIR/drive_c/Program Files (x86)/Fate／stay night[Realta Nua] -Fate-"
+      file: game_fa_crack
+  - extract:
+      dst: "$GAMEDIR/drive_c/Program Files (x86)/Fate／stay night[Realta Nua] -Unlimited Blade Works-"
+      file: game_ub
+  - extract:
+      dst: "$GAMEDIR/drive_c/Program Files (x86)/Fate／stay night[Realta Nua] -Unlimited Blade Works-"
+      file: game_ub_crack
+  - extract:
+      dst: "$GAMEDIR/drive_c/Program Files (x86)/Fate／stay night[Realta Nua] -Heaven's Feel-"
+      file: game_hf
+  - extract:
+      dst: "$GAMEDIR/drive_c/Program Files (x86)/Fate／stay night[Realta Nua] -Heaven's Feel-"
+      file: game_hf_crack
+  - task:
+      description: Installing Fate/Stay Night [Realta Nua] Ultimate Edition...
+      executable: "$GAMEDIR/drive_c/realta-nua-ultimate-edition.exe"
+      name: wineexec
+      prefix: $GAMEDIR
+  wine:
+    version: lutris-fshack-7.2-x86_64
