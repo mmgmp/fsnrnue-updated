@@ -9,7 +9,7 @@ script:
     exe: "$GAMEDIR/drive_c/Fate Stay Night - Ultimate Edition/Fate.exe"
     prefix: $GAMEDIR
   files:
-  - ultimate_edition: https://github.com/mmgmp/fsnrnue-2022/releases/download/2022.10.5/fsnrnue-2022.10.5.zip
+  - ultimate_edition: https://github.com/mmgmp/fsnrnue-updated/releases/download/2022.10.5/fsnrnue-2022.10.5.zip
   - game_fa: N/A:Select source file "Fate.rar"
   - game_fa_crack: N/A:Select source file "Fate Crack.rar"
   - game_ub: N/A:Select source file "Unlimited Blade Works.rar"
