@@ -29,14 +29,19 @@ There are two methods of installation:
    - Downloading and executing the scrip yourself with the `lutris -i fsnue-v1.1.2.yml` command. 
 
 ## Patches
-After the instalation, you can downlaod some patches, must of the are optional, but there is one that in <ins>**required**</ins> to even run the game. All the patches can be found in [this mega folder](https://mega.nz/folder/DMsXCIoD#ubkrOC40vxEJDAslcnScow/folder/HAkkjQja). To install the patches put them in the Ultimate Edition directory, alogside Fate.exe.
+After the instalation, you can downlaod some patches, must of the are optional, but there is one that in **required** to even run the game. All the patches can be found in [this mega folder](https://mega.nz/folder/DMsXCIoD#ubkrOC40vxEJDAslcnScow/folder/HAkkjQja). <ins>To install the patches put them in the Ultimate Edition directory, alogside Fate.exe</ins>.
 
 This is the list of all the patches available: 
-  * patch.xp3 - You <ins>**ALWAYS**</ins> need this. The game will not work without it.
-  * patch_lang_english.xp3 - Adds the option to switch to English text, instead of the original Japanese.
-  * patch_hd.xp3 - Adds the option to play at 1.6x resolution (1280x960) instead of the default 800x600.
-  * patch_hd_1600.xp3 - Adds the option to play at 2.0x resolution (1600x1200).
-  * patch_hd_1920.xp3 - Adds the option to play at 2.4x resolution (1920x1440).
-  * patch_h.xp3 - Adds the option to restore the ecchi/hentai content from the 18+ PC release from 2004, including demosaic choices.
-  * patch_op.xp3 - Adds the option to access Vita/mobile, PS2, and original 2004 PC opening movies in high resolution.
-  * patch_vita_ost.xp3 - Adds the option to use the remixed soundtracks from the Vita/mobile release.
+  * patch.xp3 → You <ins>**ALWAYS**</ins> need this. The game will not work without it.
+  * patch_lang_english.xp3 → Adds the option to switch to English text, instead of the original Japanese.
+  * patch_hd.xp3 → Adds the option to play at 1.6x resolution (1280x960) instead of the default 800x600.
+  * patch_hd_1600.xp3 → Adds the option to play at 2.0x resolution (1600x1200).
+  * patch_hd_1920.xp3 → Adds the option to play at 2.4x resolution (1920x1440).
+  * patch_h.xp3 → Adds the option to restore the ecchi/hentai content from the 18+ PC release from 2004, including demosaic choices.
+  * patch_op.xp3 → Adds the option to access Vita/mobile, PS2, and original 2004 PC opening movies in high resolution.
+  * patch_vita_ost.xp3 → Adds the option to use the remixed soundtracks from the Vita/mobile release.
+ 
+## Configuration
+I strangly recomend:
+  * **Patch → Movie content → Skip movies in-game option.** This causes an error, you can watch them in the Extras menu option.
+  * **Language → English.** Sometimes the game starts in Japanese by default.
