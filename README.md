@@ -1,5 +1,3 @@
-# WIP
-
 # Fate/Stay Night [Realta Nua] - Ultimate Edition (v1.1.2) for Linux!
 This is an updated instalation script for for Lutris of Fate/Stay Night [Réalta Nua] - Ultimate Edition, this script uses the new version of the Ultimate Edition, released in 2022/10/05.
 
