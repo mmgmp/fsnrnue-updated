@@ -21,11 +21,12 @@ You need a copy of the game, sadly all versions of Fate/Stay Night are unavailab
       * `Unlimited Blade Works.rar`
       * `Unlimited Blade Works Crack.rar`
       
-  4. You must have lutris installed.
+  4. You must have Lutris installed.
       
 ## Installation
-   
-   - Downloading and executing the scrip yourself with the `lutris -i fsnue-v1.1.2.yml` command. 
+There are two methods of installation:
+   - Downloading and executing the scrip yourself from the commandline with the `lutris -i fsnue-v1.1.2.yml` command. 
+   - In Lutris click in the **+** button, choose the "install from local install script" and select the downloaded script.
 
 ## Patches
 After the installation, you can download some patches, must of the are optional, but there is one that in **required** to even run the game. All the patches can be found in [this mega folder](https://mega.nz/folder/DMsXCIoD#ubkrOC40vxEJDAslcnScow/folder/HAkkjQja). <ins>To install the patches put them in the Ultimate Edition directory, alongside Fate.exe</ins>.
