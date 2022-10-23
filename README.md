@@ -11,7 +11,7 @@ You need a copy of the game, sadly all versions of Fate/Stay Night are unavailab
 
   1. Search for these exact terms: [`nyaa "Fate/stay night [Réalta Nua] for Windows"`](https://www.google.com/search?q=nyaa+%22Fate%2Fstay+night+%5BRealta+Nua%5D+for+Windows%22&oq=nyaa+%22Fate%2Fstay+night+%5BRealta+Nua%5D+for+Windows%22), it should be the first result.
   
-  2. Click where it says "Download Torrent", in the appear part.
+  2. Click where it says "Download Torrent", in the uppear part.
   
   3. Once you downloaded the torrent file, you should have these files:
       * `Fate.rar`
