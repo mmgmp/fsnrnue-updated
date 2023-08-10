@@ -1,6 +1,6 @@
 name: "Fate/Stay Night"
 game_slug: fatestay-night
-version: "[Réalta Nua] Ultimate Edition - v1.1.2"
+version: "[Réalta Nua] Ultimate Edition"
 slug: fate-stay-night-realta-nua-ultimate-edition-installer
 runner: wine
 
@@ -9,7 +9,7 @@ script:
     exe: "$GAMEDIR/drive_c/Program Files (x86)/Fate／stay night[Realta Nua] Ultimate Edition/Fate.exe"
     prefix: $GAMEDIR
   files:
-  - ultimate_edition: https://github.com/mmgmp/fsnrnue-updated/releases/download/v1.1.2/fsnrnue-v1.1.2.zip
+  - ultimate_edition: https://github.com/mmgmp/fsnrnue-updated/releases/download/latest/fate-stay-night-ue.zip 
   - game_fa: N/A:Select source file "Fate.rar"
   - game_fa_crack: N/A:Select source file "Fate Crack.rar"
   - game_ub: N/A:Select source file "Unlimited Blade Works.rar"
@@ -44,8 +44,6 @@ script:
       file: game_hf_crack
   - task:
       description: Installing Fate/Stay Night [Realta Nua] Ultimate Edition...
-      executable: "$GAMEDIR/drive_c/realta-nua-ultimate-edition.exe"
+      executable: "$GAMEDIR/drive_c/fate-stay-night-ue.exe"
       name: wineexec
       prefix: $GAMEDIR
-  wine:
-    version: lutris-fshack-7.2-x86_64
