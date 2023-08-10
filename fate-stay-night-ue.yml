@@ -1,6 +1,6 @@
 name: "Fate/Stay Night"
 game_slug: fatestay-night
-version: "[Réalta Nua] Ultimate Edition"
+version: "Ultimate Edition v1.1.4"
 slug: fate-stay-night-realta-nua-ultimate-edition-installer
 runner: wine
 
